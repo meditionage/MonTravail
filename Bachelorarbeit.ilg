@@ -1,0 +1,14 @@
+This is D:\Programme\MiKTeX 2.8\miktex\bin\makeindex.exe, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning style file D:/Dokumente und Einstellungen/RP/Anwendungsdaten/MiKTeX/2.8/makeindex/nomencl/nomencl.ist.......
+** Input style error (file = D:/Dokumente und Einstellungen/RP/Anwendungsdaten/MiKTeX/2.8/makeindex/nomencl/nomencl.ist, line = 70):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = D:/Dokumente und Einstellungen/RP/Anwendungsdaten/MiKTeX/2.8/makeindex/nomencl/nomencl.ist, line = 71):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = D:/Dokumente und Einstellungen/RP/Anwendungsdaten/MiKTeX/2.8/makeindex/nomencl/nomencl.ist, line = 72):
+   -- Unknown specifier lethead_flag.
+...done (10 attributes redefined, 3 ignored).
+Scanning input file D:\Dokumente und Einstellungen\RP\Desktop\Abgabeversion\Vorlage_Diplom_Bachelorarbeit_Latex_TK1\Bachelorarbeit.nlo....done (52 entries accepted, 0 rejected).
+Sorting entries....done (324 comparisons).
+Generating output file D:\Dokumente und Einstellungen\RP\Desktop\Abgabeversion\Vorlage_Diplom_Bachelorarbeit_Latex_TK1\Bachelorarbeit.nls....done (109 lines written, 0 warnings).
+Output written in D:\Dokumente und Einstellungen\RP\Desktop\Abgabeversion\Vorlage_Diplom_Bachelorarbeit_Latex_TK1\Bachelorarbeit.nls.
+Transcript written in D:\Dokumente und Einstellungen\RP\Desktop\Abgabeversion\Vorlage_Diplom_Bachelorarbeit_Latex_TK1\Bachelorarbeit.ilg.

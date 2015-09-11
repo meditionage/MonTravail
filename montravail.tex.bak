@@ -1,0 +1,152 @@
+%================================================================================
+% Erstellt am: 				01.09.2015
+% Aufberarbeitet am:	01.09.2015
+% Autor:							El Mehdi Bennani
+%================================================================================
+
+%Einbinden der Datei header.tex; diese enthält alle verwendeten Pakete,
+%sowie Änderungen am Layout
+\include{header} 
+
+%\usepackage[babel]{german}
+
+\begin{document}
+
+%=== Einleitung ======================================================
+%Seitennummerierung Abstract bis einschliesslich Inhaltsverzeichnis
+\frontmatter 
+%Seitenzahlzähler wird auf 3 gesetzt, da Titelseiten nicht mitgezählt werden
+\setcounter{page}{3}
+%Seitennummerierung findet in arabischen Zahlen statt 
+\pagenumbering{arabic}
+%Seitennummerierung in römischen Zahlen
+%\pagenumbering{Roman}
+
+%Einbinden der Titelseite
+\include{kapitel/titelseite}
+%Zeilenabstand 1,5 fach
+%\onehalfspacing
+%Einbinden des Abstracts bzw. der Kurzfassung
+\include{kapitel/abstract}
+%Zeilenabstand für das Inhaltsverzeichnis 1 fach
+%\singlespacing
+%Einbinden des Inhaltsverzeichnis
+\include{kapitel/inhaltsverzeichnis}
+%Zeilenabstand für den Hauptteil ist 1,5 fach
+%\singlespacing
+\include{kapitel/verzeichnisse_Anfang}
+%Zeilenabstand für den Hauptteil ist 1,5 fach
+%\onehalfspacing
+
+%=== Hauptteil =======================================================
+%Seitennummerierung des Hauptteils
+\mainmatter
+%Nummerierung beginnt beim Hauptteil ab Seite 6 (muss angepasst werden)
+\setcounter{page}{12}
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+
+%Einbinden eines Vorwortes
+\include{kapitel/vorwort} 	%in jedem Kapitel die Nummerierung neu beginnt
+	
+	\setcounter{chapter}{0}
+	\setcounter{section}{1}
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	
+	%Einbinden einer Einleitung
+	\include{kapitel/Einleitung} 	%in jedem Kapitel die Nummerierung neu beginnt
+	
+	\setcounter{chapter}{0}
+	\setcounter{section}{1}
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	
+%Einbinden des ersten Kapitels
+\include{kapitel/kapitel1} 
+
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+ %Einbinden des ersten Kapitels
+\include{kapitel/kapitel2}
+	
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	%Einbinden des zweiten Kapitels
+\include{kapitel/kapitel3}
+	
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	%Einbinden des zweiten Kapitels
+\include{kapitel/kapitel4}
+
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	%Einbinden des zweiten Kapbitels
+\include{kapitel/kapitel5}
+
+%Zeilenabstand 1 fach für die Verzeichnisse
+%\halfspacing
+\singlespacing
+%Einbindne der Verzeichnisse
+\include{kapitel/verzeichnisse}
+
+%=== Schlussteil =====================================================
+%%Seitennummerierung für den Anhang
+%\backmatter
+%Seitennummerierung in römischen Zahlen
+%\pagenumbering{Roman}
+
+	%ändert den Stil des Literaturverzeichnisses
+  \lhead[ \leftmark   ]{\textbf{Literaturverzeichnis}}
+  \bibliographystyle{geralpha}
+	%Erzeugt das Literaturverzeichnis anhand der Datei "`literatur.bib"'
+	\bibliography{literatur}
+	%Fügt die Zeile "`Literaturverzeichnis"' als Chapter ins Inhaltsverzeichnis ein
+	\addcontentsline{toc}{chapter}{\large{Literaturverzeichnis}}
+
+	
+%Fügt die Zeile "`Anhang"' als Part ins Inhaltsverzeichnis (toc = table of content) ein
+%\addcontentsline{toc}{chapter}{Anhang}
+%Einbinden des Anhangs mit sämtlichen Verzeichnissen
+%\singlespacing
+
+\include{kapitel/anhang}
+%Zeilenabstand 1 fach für den Eid
+
+%\singlespacing
+%Einbinden des Eides
+\include{kapitel/eid}
+
+%Fügt die Zeile "`Glossar"' als Chapter ins Inhaltsverzeichnis ein
+%\addcontentsline{toc}{chapter}{Glossar}
+%Zeilenabstand 1 fach für die Verzeichnisse
+%\singlespacing
+%Einbindne der Verzeichnisse
+%\singlespacing
+\include{kapitel/Glossar}
+
+\newpage
+%\addcontentsline{toc}{part}{Index}
+%\chapter*{Index}
+\addcontentsline{toc}{part}{Index}
+\lhead[ \leftmark   ]{\textbf{Index}}
+\printindex
+
+\newpage
+\lhead[ \leftmark   ]{\textbf{Widmung}}
+\textbf{\LARGE Widmung}\\\\
+Die Widmung ist optional!
+Text\\\\
+
+In Liebe,\\ 
+Euer Sohn
+
+\end{document}

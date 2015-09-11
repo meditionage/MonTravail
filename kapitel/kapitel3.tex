@@ -1,0 +1,57 @@
+%!TEX root = ../Bachelorarbeit.tex
+
+\chapter{Entwicklung des Modells}
+\lhead[ \leftmark   ]{\textbf{Modell Realisierung}}
+Aufbau siehe Kapitel 1 
+
+\section{Erstes Unterkapitel}
+%Beispiel für nummerierte Aufzählung
+\begin{enumerate}
+	\item Text\\
+	Text
+	\item Text\\
+	Text
+	\item Text\\
+	Text
+\end{enumerate} 
+
+\newpage
+%Eingaben von Source Code
+Zuerst erfolgt zum besseren Verständnis die Deklarierung der verwendeten Variablen\\
+\begin{lstlisting}[basicstyle=\small,numbers=left,numberstyle=\footnotesize\small,backgroundcolor=\color{sourcegray}]
+// die Motoren des rechten Beines werden wie in dem bisher 
+// verwendeten Schema zugewiesen 
+// Hüfte (C), Knie (B) und Fussgelenk (A)
+public static Motor motorHip = new Motor(MotorPort.C);
+public static Motor motorKnee = new Motor(MotorPort.B);
+public static Motor motorAnkle = new Motor(MotorPort.A);
+public static boolean sensorReached1 = false;
+
+// der Ultraschallsensor wird an Port S1 erwartet
+public static UltrasonicSensor sonicSensor1 = 
+              new UltrasonicSensor(SensorPort.S1);
+
+//Der TouchSensor wird an Port S2 erwartet und wird zum iterieren
+// durch einen Bewegungsablauf verwendet
+public static TouchSensor touchSensor = 
+              new TouchSensor(SensorPort.S2);
+	
+\end{lstlisting}
+
+%\noindent{}Beispiel für eine nummerierte Aufzählung:
+\begin{enumerate}
+	\item Item 1
+	\item Item 2	
+	\item Item 3
+\end{enumerate}
+
+%\noindent{}Beispiel für eine unnummerierte Aufzählung mit neuem Symbol:
+\begin{itemize}
+\renewcommand{\labelitemi}{$\rightarrow$}
+	\item Item 1
+	\item Item 2
+	\item Item 3
+\end{itemize}
+
+%Referenz zu Grafik \ref{fig:showcase} in Kapitel \ref{sec:section}.
+

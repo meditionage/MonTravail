@@ -1,0 +1,55 @@
+%!TEX root = ../montravail.tex
+
+  %Erzeugt ein Abbildungsverzeichnis
+	%Fügt die Zeile "Abbildungsverzeichnis" als Chapter ins Inhaltsverzeichnis ein
+	\addcontentsline{toc}{chapter}{List of figures}
+	\lhead[ \leftmark   ]{\textbf{List of figures}}
+	%Erzeugt ein Abbildungsverzeichnis
+	%Schreibt Abb.: vor die Abbildung
+	\renewcommand{\cftfigpresnum}{Abb. }
+	\renewcommand{\cftfigaftersnum}{:}
+	\setlength{\cftfignumwidth}{2cm}
+	\setlength{\cftfigindent}{0cm}
+	\listoffigures
+	%mit dieser Zeile wird das entsprechende Verzeichnis nach links geschrieben
+	\lhead[ \leftmark   ]{\textbf{List of figures}}
+	
+	\newpage
+	%Fügt die Zeile "Tabellenverzeichnis" als Chapter ins Inhaltsverzeichnis ein
+	\addcontentsline{toc}{chapter}{List of tables}
+	%Erzeugt ein Abkürzungsverzeichnis	
+	\newpage
+	%Schreibt Tab.: vor die Abbildung
+	\renewcommand{\cfttabpresnum}{Tab. }
+	\renewcommand{\cfttabaftersnum}{:}
+	\setlength{\cfttabnumwidth}{2cm}
+	\setlength{\cfttabindent}{0cm}
+	%mit dieser Zeile wird das entsprechende Verzeichnis nach links geschrieben
+	\lhead[ \leftmark   ]{\textbf{List of tables}}	
+	\listoftables
+		
+	\newpage
+	%Fügt die Zeile "Glossar" als Chapter ins Inhaltsverzeichnis ein
+	\addcontentsline{toc}{chapter}{List of abbreviations}
+	\newpage
+	%mit dieser Zeile wird das entsprechende Verzeichnis nach links geschrieben
+	\lhead[ \leftmark   ]{\textbf{List of abbreviations}}
+	\printnomenclature
+
+
+%	\newpage
+%	\chapter*{Vorwort}
+%	\addcontentsline{toc}{chapter}{Vorwort}
+%	\lhead[ \leftmark   ]{\textbf{Vorwort}}
+%	
+	\newpage
+%die Aufgabenstellung lässt sich auch als eigenes Kapitel schreiben/Speichern
+	\chapter*{Topic}
+	\addcontentsline{toc}{chapter}{Topic}
+	%mit dieser Zeile wird das entsprechende Verzeichnis nach links geschrieben
+	\lhead[ \leftmark   ]{\textbf{Topic}}
+	
+	Die Idee an einem Unterstützungs-Roboter für gehbehinderte Menschen zu forschen, entstand durch das medial wachsende
+	Interesse an Laufrobotern. Diese sind bereits im Entertainmentbereich z. B. bei Spielzeugen gängig, werden aber inzwischen
+	auch\\
+	vermehrt für Militärzwecke eingesetzt....

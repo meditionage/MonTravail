@@ -1,0 +1,70 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: montravail.aux
+A level-1 auxiliary file: kapitel/titelseite.aux
+A level-1 auxiliary file: kapitel/abstract.aux
+A level-1 auxiliary file: kapitel/inhaltsverzeichnis.aux
+A level-1 auxiliary file: kapitel/verzeichnisse_Anfang.aux
+A level-1 auxiliary file: kapitel/vorwort.aux
+A level-1 auxiliary file: kapitel/Einleitung.aux
+A level-1 auxiliary file: kapitel/kapitel1.aux
+A level-1 auxiliary file: kapitel/kapitel2.aux
+A level-1 auxiliary file: kapitel/kapitel3.aux
+A level-1 auxiliary file: kapitel/kapitel4.aux
+A level-1 auxiliary file: kapitel/kapitel5.aux
+A level-1 auxiliary file: kapitel/verzeichnisse.aux
+The style file: geralpha.bst
+A level-1 auxiliary file: kapitel/anhang.aux
+A level-1 auxiliary file: kapitel/eid.aux
+A level-1 auxiliary file: kapitel/Glossar.aux
+Database file #1: literatur.bib
+I was expecting a `,' or a `}'---line 569 of file literatur.bib
+ :  note = {\url{http://darwin.bth.rwth-aachen.de/opus3/volltexte/2002/408/pdf/Stenzel_Roland.pdf}Sichtung: 06.09.2010 oder im Anhang(CD)}
+ :                                                                                                                                        %url verbessern
+I'm skipping whatever remains of this entry
+You're missing a field name---line 633 of file literatur.bib
+ :  author = {{W3C World Wide Web Consortium; Booth, David (Hrsg.) et al.}},
+ :                                                                          %S. McMillan. DynaMechs (Dynamics of Mechanisms): A Multibody Dynamic Simulation Library.
+I'm skipping whatever remains of this entry
+You've used 3 entries,
+            2768 wiz_defined-function locations,
+            633 strings with 5798 characters,
+and the built_in function-call counts, 897 in all, are:
+= -- 87
+> -- 24
+< -- 3
++ -- 6
+- -- 6
+* -- 50
+:= -- 142
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 12
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 39
+empty$ -- 85
+format.name$ -- 12
+if$ -- 197
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 15
+num.names$ -- 9
+pop$ -- 30
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 39
+stack$ -- 0
+substring$ -- 21
+swap$ -- 9
+text.length$ -- 3
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 24
+warning$ -- 0
+while$ -- 6
+width$ -- 5
+write$ -- 35
+(There were 2 error messages)

@@ -1,0 +1,10 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{BA}]\begingroup Belastungsantwort\vspace{4mm}\nomeqref {\relax 3.0}
+		\nompageref{52}
+  \item [{MKS}]\begingroup Mehrkörpersystem\vspace{0.8mm}\nomeqref {\relax 1.5}
+		\nompageref{34}
+
+\end{thenomenclature}

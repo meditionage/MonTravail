@@ -1,0 +1,109 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{ARM7}]\begingroup Advanced RISC Machines\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{BA}]\begingroup Belastungsantwort\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{BIC}]\begingroup Business Innovation Center\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{CAN}]\begingroup Controller Area Network\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{CSR}]\begingroup Core Serial Protocol\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{DFG}]\begingroup Deutsche Forschungsgemeinschaft\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{DOF}]\begingroup Degrees of freedom\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{EDR}]\begingroup Enhanced Data Rate\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{EPROM}]\begingroup Erasable Programmable Read Only Memory\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{IBK}]\begingroup Initialer Bodenkontakt\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{IEEE}]\begingroup Institute of Electrical and Electronics Engineers\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{ISC}]\begingroup Inter-Integrated Circuit\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{ISM-Band}]\begingroup Industrial, Scientific and Medical Band\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{ISO}]\begingroup International Organization for Standardization\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{ISw}]\begingroup Initiale Schwungphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{JARA}]\begingroup Japan Robot Association\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{KG}]\begingroup Kniegelenk\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{KI}]\begingroup Künstliche Intelligenz\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{KOS}]\begingroup Koordinatensysteme\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{LAN}]\begingroup Local Area Network\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{LCD}]\begingroup Liquid Crystal Display\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{LIN}]\begingroup Local Interconnect Network\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{MCU}]\begingroup Mikrocontroller Unit\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{MKS}]\begingroup Mehrkörpersystem\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{MPL}]\begingroup Mozilla Public License\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{MSt}]\begingroup Mittlere Standphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{MSw}]\begingroup Mittlere Schwungphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{OS}]\begingroup Oberschenkel\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{OTP}]\begingroup One Time Programmable\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{PDA}]\begingroup Personal Digital Assistant\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{Pose}]\begingroup Position und Orientierung\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{PWM}]\begingroup Pulse Width Modulation\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{RAM}]\begingroup Random Acess Memory\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{RIA}]\begingroup Robot Institut of America\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{ROM}]\begingroup Read only Memory\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SG}]\begingroup Sprunggelenk\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SIG}]\begingroup Special Interest Group\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SOC}]\begingroup System on a Chip\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SPI}]\begingroup Serial Peripheral Interface\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SPP}]\begingroup Serial Port Profile\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{SRD}]\begingroup Short Range Devices\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{TCP}]\begingroup Tool Center Point\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{TD}]\begingroup Touch Down\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{TO}]\begingroup Take Off\nomeqref {\relax 2.0}\nompageref{18}
+  \item [{TSt}]\begingroup Terminale Standphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{TSw}]\begingroup Terminale Schwungphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{USB}]\begingroup Universal Serial Bus\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{UV}]\begingroup Ultra Violet\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{VDI}]\begingroup Verein Deutscher Ingenieure\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{VSw}]\begingroup Vor-Schwungphase\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{WLAN}]\begingroup Wireless Local Area Network\nomeqref {\relax 2.0}
+		\nompageref{18}
+  \item [{WPAN}]\begingroup Wireless Personal Area Network\nomeqref {\relax 2.0}
+		\nompageref{18}
+
+\end{thenomenclature}
