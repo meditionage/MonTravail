@@ -23,7 +23,7 @@
 %\pagenumbering{Roman}
 
 %Einbinden der Titelseite
-\include{kapitel/titelseite}
+\include{kapitel/titelpage}
 %Zeilenabstand 1,5 fach
 %\onehalfspacing
 %Einbinden des Abstracts bzw. der Kurzfassung
@@ -31,7 +31,7 @@
 %Zeilenabstand für das Inhaltsverzeichnis 1 fach
 %\singlespacing
 %Einbinden des Inhaltsverzeichnis
-\include{kapitel/inhaltsverzeichnis}
+\include{kapitel/Contents}
 %Zeilenabstand für den Hauptteil ist 1,5 fach
 %\singlespacing
 \include{kapitel/verzeichnisse_Anfang}
@@ -46,7 +46,7 @@
 	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
 
 %Einbinden eines Vorwortes
-\include{kapitel/vorwort} 	%in jedem Kapitel die Nummerierung neu beginnt
+\include{kapitel/Preface} 	%in jedem Kapitel die Nummerierung neu beginnt
 	
 	\setcounter{chapter}{0}
 	\setcounter{section}{1}
@@ -54,7 +54,7 @@
 	\setcounter{figure}{1}
 	
 	%Einbinden einer Einleitung
-	\include{kapitel/Einleitung} 	%in jedem Kapitel die Nummerierung neu beginnt
+	\include{kapitel/Introduction} 	%in jedem Kapitel die Nummerierung neu beginnt
 	
 	\setcounter{chapter}{0}
 	\setcounter{section}{1}
@@ -105,12 +105,12 @@
 %\pagenumbering{Roman}
 
 	%ändert den Stil des Literaturverzeichnisses
-  \lhead[ \leftmark   ]{\textbf{Literaturverzeichnis}}
+  \lhead[ \leftmark   ]{\textbf{List of references}}
   \bibliographystyle{geralpha}
 	%Erzeugt das Literaturverzeichnis anhand der Datei "`literatur.bib"'
 	\bibliography{literatur}
 	%Fügt die Zeile "`Literaturverzeichnis"' als Chapter ins Inhaltsverzeichnis ein
-	\addcontentsline{toc}{chapter}{\large{Literaturverzeichnis}}
+	\addcontentsline{toc}{chapter}{\large{List of references}}
 
 	
 %Fügt die Zeile "`Anhang"' als Part ins Inhaltsverzeichnis (toc = table of content) ein
