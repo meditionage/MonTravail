@@ -68,7 +68,14 @@
 	%in jedem Kapitel die Nummerierung neu beginnt
 	\setcounter{table}{1}
 	\setcounter{figure}{1}
- %Einbinden des ersten Kapitels
+ %Einbinden des ersten Kapitels a
+\include{kapitel/kapitel1a} 
+
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	 
 \include{kapitel/kapitel2}
 	
 	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
@@ -77,6 +84,13 @@
 	\setcounter{figure}{1}
 	%Einbinden des zweiten Kapitels
 \include{kapitel/kapitel3}
+
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+	%Einbinden des zweiten Kapitels
+\include{kapitel/kapitelxy}
 	
 	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
 	%in jedem Kapitel die Nummerierung neu beginnt
@@ -104,13 +118,13 @@
 %Seitennummerierung in römischen Zahlen
 %\pagenumbering{Roman}
 
-	%ändert den Stil des Literaturverzeichnisses
-  \lhead[ \leftmark   ]{\textbf{List of references}}
+	%ändert den Stil des Literaturverzeichnisses List of references
+  \lhead[ \leftmark   ]{\textbf{Bibliography}}
   \bibliographystyle{geralpha}
 	%Erzeugt das Literaturverzeichnis anhand der Datei "`literatur.bib"'
 	\bibliography{literatur}
 	%Fügt die Zeile "`Literaturverzeichnis"' als Chapter ins Inhaltsverzeichnis ein
-	\addcontentsline{toc}{chapter}{\large{List of references}}
+	\addcontentsline{toc}{chapter}{\large{Bibliography}}
 
 	
 %Fügt die Zeile "`Anhang"' als Part ins Inhaltsverzeichnis (toc = table of content) ein
@@ -146,7 +160,7 @@
 Die Widmung ist optional!
 Text\\\\
 
-In Liebe,\\ 
-Euer Sohn
+Avec tout l'amoure de mes parents,\\ 
+Votre fils
 
 \end{document}

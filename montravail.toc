@@ -1,5 +1,4 @@
-\select@language {ngerman}
-\select@language {ngerman}
+\select@language {english}
 \contentsline {chapter}{\relax \fontsize {12}{14}\selectfont {Abstract}}{2}{chapter*.1}
 \contentsline {chapter}{List of figures}{6}{chapter*.3}
 \contentsline {chapter}{List of tables}{7}{chapter*.4}
@@ -7,7 +6,7 @@
 \contentsline {chapter}{Topic}{8}{chapter*.6}
 \contentsline {chapter}{Preface}{12}{chapter*.7}
 \contentsline {chapter}{Introduction}{13}{chapter*.8}
-\contentsline {chapter}{\numberline {1}Grundlagen}{15}{chapter.1}
+\contentsline {chapter}{\numberline {1}Background}{15}{chapter.1}
 \contentsline {section}{\numberline {1.1}Erste \"Uberschrift}{15}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Zweite \"Uberschrift}{15}{subsection.1.1.1}
 \contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{15}{section*.9}
@@ -16,22 +15,35 @@
 \contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{15}{section*.10}
 \contentsline {subsection}{\numberline {1.2.2}Zweite \"Uberschrift}{16}{subsection.1.2.2}
 \contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{16}{section*.11}
-\contentsline {chapter}{\numberline {2}Marktanalyse}{18}{chapter.2}
-\contentsline {section}{\numberline {2.1}dfhdhgj}{19}{section.2.1}
-\contentsline {section}{\numberline {2.2}thsgfnfgnj}{19}{section.2.2}
-\contentsline {section}{\numberline {2.3}gfhfgjdrtu}{19}{section.2.3}
-\contentsline {chapter}{\numberline {3}Entwicklung des Modells}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Erstes Unterkapitel}{20}{section.3.1}
-\contentsline {chapter}{\numberline {4}Ergebnisse}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}Pr\"asentation}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}Schwierigkeiten}{22}{section.4.2}
-\contentsline {section}{\numberline {4.3}Auswertungen}{22}{section.4.3}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Zusammenfassung}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Ausblick auf zuk\"unftige Arbeiten}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Schlusswort}{23}{section.5.3}
-\contentsline {chapter}{\relax \fontsize {12}{14}\selectfont {List of references}}{24}{chapter*.12}
-\contentsline {part}{Anhang}{26}{part*.13}
-\contentsline {part}{Erkl\"arung}{27}{chapter*.15}
-\contentsline {part}{Glossar}{28}{chapter*.16}
-\contentsline {part}{Index}{30}{chapter*.16}
+\contentsline {chapter}{\numberline {2}Role of abstractions in domain modeling}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Erste \"Uberschrift}{19}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Zweite \"Uberschrift}{19}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Zweite \"Uberschrift}{19}{subsection.2.1.2}
+\contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{19}{section*.12}
+\contentsline {section}{\numberline {2.2}Erste \"Uberschrift}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Zweite \"Uberschrift}{19}{subsection.2.2.1}
+\contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{20}{section*.13}
+\contentsline {subsection}{\numberline {2.2.2}Zweite \"Uberschrift}{20}{subsection.2.2.2}
+\contentsline {subsubsection}{\nonumberline Dritte \"Uberschrift}{20}{section*.14}
+\contentsline {chapter}{\numberline {3}Marktanalyse}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}dfhdhgj}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}thsgfnfgnj}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}gfhfgjdrtu}{24}{section.3.3}
+\contentsline {chapter}{\numberline {4}Entwicklung des Modells}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Erstes Unterkapitel}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5}xyhas to be defined}{27}{chapter.5}
+\contentsline {chapter}{xyhas to be defined}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}SBT build system}{29}{section.5.1}
+\contentsline {chapter}{\numberline {6}Ergebnisse}{30}{chapter.6}
+\contentsline {section}{\numberline {6.1}Pr\"asentation}{30}{section.6.1}
+\contentsline {section}{\numberline {6.2}Schwierigkeiten}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Auswertungen}{30}{section.6.3}
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{31}{chapter.7}
+\contentsline {section}{\numberline {7.1}Zusammenfassung}{31}{section.7.1}
+\contentsline {section}{\numberline {7.2}Ausblick auf zuk\"unftige Arbeiten}{31}{section.7.2}
+\contentsline {section}{\numberline {7.3}Schlusswort}{31}{section.7.3}
+\contentsline {chapter}{\relax \fontsize {12}{14}\selectfont {Bibliography}}{32}{chapter*.15}
+\contentsline {part}{Anhang}{34}{part*.16}
+\contentsline {part}{Erkl\"arung}{35}{chapter*.18}
+\contentsline {part}{Glossar}{36}{chapter*.19}
+\contentsline {part}{Index}{38}{chapter*.19}

@@ -7,12 +7,22 @@
 %a4paper: DIN A4
 %oneside: für eine spätere einseitige Bedruckung 
 \documentclass[BCOR12mm,DIV11,titlepage,a4paper,oneside]{scrbook}
+%\documentclass[a4paper,11pt,footsepline,headinclude,twoside,BCOR7mm,DIV13]{scrreprt}
 
 %Paket für deutsche Silbentrennung etc.
-%\usepackage{ngerman}
-\usepackage[ngerman]{babel}
+%english is the first and main language 
+\usepackage[british, UKenglish, USenglish, main=english, american, ngerman]{babel}
 \usepackage[latin1]{inputenc}
-%\usepackage[Encodierer]{inputenc}
+
+
+
+%Paket zur Erzeugung von Anführungszeichen durch \enquote{Text}
+\usepackage[babel, german=quotes]{csquotes}
+
+\usepackage{hyphsubst}
+\HyphSubstLet{english}{usenglishmax}
+
+
 
 %Paket für Zeichenkodierung, entspricht UTF-8
 %\usepackage[utf8x]{inputenc}
@@ -59,7 +69,13 @@
 %ändert die Seitennummerierung bei Chapter mit eigenem Stil
 \renewcommand*{\chapterpagestyle}{fancy}
 
-
+%Tabellen
+%\usepackage{longtable} % Tabellen ueber mehrere Seiten
+%\usepackage{booktabs} %% Tabellen wie in Buechern kompatibel mit longtabel und booktable
+%\usepackage{colortbl}  %farbige Tabellen
+%\usepackage{array} % ERweiterung des array Stils f�r Tabellen und Arrays
+%\usepackage[tight,footnotesize]{subfigure} % Mehrere Bilder mit Unterschriften
+%\usepackage{hhline} % Macros f�r Trennlinien bei Tabellen
 %Abbildungsnummerierung ändern (abhägig von chapter, z.B. Abbildung 1.1)
 \renewcommand*{\thefigure}{\thechapter.\arabic{figure}}
 %Tabellennummerierung ändern (abhängig von chapter, z.B. Tabelle 1.1)
@@ -84,17 +100,36 @@
 %Veranlasst die Erstellung des Glossars
 \makenomenclature
 
-\setlength{\parindent}{0pt}
 
+
+
+%Formatierungen Text allgemein
+%\linespread{1,46}		\end{itemize}
+		%Zeilenabstand auf 1,5
+\setlength{\parskip}{1.5ex plus0.5ex minus0.2ex} %dynamische Absaetze
+%\setlength{\parindent}{0pt}
+
+%\voffset-1cm
+%\textwidth16cm
 \usepackage{makeidx}
 \makeindex
 
 %Verhindern, dass eine neue Seite für ein einzelnes Wort/Zeile verwendet wird
 \clubpenalty = 10000 % schliesst Schusterjungen aus 
 \widowpenalty = 10000 % schliesst Hurenkinder aus (keine Beleidigung, sondern wirklich ein Fachbegriff)
+%Keine einzelnen Zeile am Seitenende-
+\displaywidowpenalty = 10000
+
+
+%Bild- und Tabellenunterschriften
+\addtokomafont{caption}{\footnotesize}
+\setkomafont{captionlabel}{\sffamily\bfseries}
+\setcapwidth[c]{0.90\textwidth}
 
 %Paket für ein deutsches Literaturverzeichnis
-\usepackage{bibgerm}
+%\usepackage{bibgerm}
+
+
 
 %Paket für die Verwendung von URLs durch den Befehl \url{}
 \usepackage{url}
@@ -102,29 +137,27 @@
 %Paket für Zeilenabstand (onehalfspace, singlespace)
 \usepackage{setspace}
 
-%Paket zur Erzeugung von Anführungszeichen durch \enquote{Text}
-\usepackage[ngerman]{babel}
-\usepackage[babel, german=quotes]{csquotes}
-
 %Paket für farbigen Text
 %black,white,green,red,blue,yellow,cyan,magenta
 \usepackage{color}
-
 \usepackage{colortbl}
 
 %Paket für farbigen Hintergrund für Verbatim-Umgebung (Quelltext-Umgebung)
 \usepackage{fancyvrb}
 \usepackage{verbatim,moreverb}
 %Grauton für Quelltext-Umgebung definieren 80% Grau
-\definecolor{sourcegray}{gray}{.80}
+\definecolor{sourcegray}{gray}{.70}
 %Paket für Quelltext-Umgebung
 \usepackage{listings}
 
 %Paket für Positionierung der Objekte ohne Float (Verwendungsbsp.: \begin{figure}[H])
 \usepackage{float}
 
+%Trennungen
+\hyphenation{Betriebs-spannungen}
+
 %Paket zur Erzeugung von Hyperrefs und PDF Informationen
 \usepackage[pdftex,plainpages=false,pdfpagelabels,
-            pdftitle={Diplomarbeit},
-            pdfauthor={Thomas Karanatsios}
-            ]{hyperref}
+            pdftitle={Masterarbeit},
+            pdfauthor={El Mehdi Bennani}
+            ]{hyperref}            
