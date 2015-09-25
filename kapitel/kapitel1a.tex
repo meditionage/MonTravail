@@ -9,11 +9,14 @@ in domain modeling}}
 %erstes Unterkapitel
 \section{Erste Überschrift}
 
-A DSL is nothing but a layer of abstraction over an underlying implementation model.
+\textcolor[rgb]{1,0,0}{A DSL is nothing but a layer of abstraction over an underlying implementation model.
 Unless you get it right, your domain model won?t be at the correct level of abstraction, and the linguistic representation of it in the DSL won?t be either.
 well-engineered abstraction, do not contains nonessential details that don?t belong to the core concerns of the abstraction
 design abstractions at the correct level to
 ensure that your model speaks the language of the domain
+abstraction needs to publish only the core essence
+to its clients, which makes it minimal from the outside looking in.}
+
 %nächstes unterkapitel ebene 2
 \subsection{Zweite Überschrift}
 Every abstraction has a functionality to deliver to its clients
@@ -30,12 +33,13 @@ Engineering is about designing things in a modular way
 Extensibility and composability
 Extensibility is possible only through composability
 Engineering is about designing things in a modular way
+Well-behaved abstractions can be composed to form higher-level abstractions
 %zweites Unterkapitel
-\section{Erste Überschrift}
+\section{Well-designed abstractions}
 
 %nächstes unterkapitel ebene 2
-\subsection{Zweite Überschrift}
-
+\subsection{qualities}
+abstractions at the correct level to ensure that your model speaks the language of the domain. Only then will your code be as expressive as the language of the person who?s an expert in the domain.
 %Abbildungsbeispiel
 %Abbildungsquelle immer! angeben es sei den selber gemacht!!!!
 Text....(siehe Abb. 1.1)
@@ -50,22 +54,30 @@ Text....(siehe Abb. 1.1)
 \end{figure}
 
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
-\subsubsection{Dritte Überschrift}
+\subsubsection{how to design an abstraction}
 
 %Aufzählung
 \begin{itemize}
-	\item Die Bewegungsform der Achsen
-	\item Anzahl und Anordnung der Achsen
+	\item introduce an extra level of indirection between your domain abstraction and the lan
+	guage of implementation.
+	\item  extensible abstractions 
 	\item Die Formen des Arbeitsraums
 \end{itemize}
     
-... Arm zu strecken. (Vgl.\cite{112}) 
+... extensible abstractions. (Vgl.\cite{112})
+difficult to extend java.util.Map using a true OO approach \\\\
+Mixins let you do exactly what?s needed here \\\\
+Scala offers mixin implementation in the form of traits.\\\\
+in the final implementation, the trait xy is mixed in
+dynamically during runtime object creation.\\\\
 %nächstes unterkapitel ebene 2
-\subsection{Zweite Überschrift}
+\subsection{implementation inheritance}
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
 \subsubsection{Dritte Überschrift}
-Hier Text einfügen\index{einfügen}
-
+dsl in action\index{A.2.2 Subtyping to prevent implementation leak}
+\textcolor[rgb]{1,0,0}{subclasses become unnecessarily coupled to the implementation of your base class!
+how to distill an abstraction out of its nonessential details
+minimize accidental complexity in your abstractions}
 %ß ohne weiterführung des Wortes
 Roboterfu\ss \ befindet
 
