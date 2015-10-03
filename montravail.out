@@ -7,36 +7,55 @@
 \BOOKMARK [0][-]{chapter*.8}{Introduction}{}% 7
 \BOOKMARK [0][-]{chapter.1}{Background}{}% 8
 \BOOKMARK [1][-]{section.1.1}{Human brain and languages}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.1.1}{Broca?s area}{section.1.1}% 10
-\BOOKMARK [1][-]{section.1.2}{Erste \334berschrift}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.2.1}{Zweite \334berschrift}{section.1.2}% 12
-\BOOKMARK [2][-]{subsection.1.2.2}{Zweite \334berschrift}{section.1.2}% 13
-\BOOKMARK [0][-]{chapter.2}{Role of abstractions in domain modeling}{}% 14
-\BOOKMARK [1][-]{section.2.1}{Erste \334berschrift}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.1.1}{Zweite \334berschrift}{section.2.1}% 16
-\BOOKMARK [2][-]{subsection.2.1.2}{Zweite \334berschrift}{section.2.1}% 17
-\BOOKMARK [1][-]{section.2.2}{Well-designed abstractions}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.2.1}{qualities}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.2}{implementation inheritance}{section.2.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Marktanalyse}{}% 21
-\BOOKMARK [1][-]{section.3.1}{dfhdhgj}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{thsgfnfgnj}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{gfhfgjdrtu}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{Entwicklung des Modells}{}% 25
-\BOOKMARK [1][-]{section.4.1}{Erstes Unterkapitel}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{xyhas to be defined}{}% 27
-\BOOKMARK [0][-]{chapter.5}{xyhas to be defined}{}% 28
-\BOOKMARK [1][-]{section.5.1}{SBT build system}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Ergebnisse}{}% 30
-\BOOKMARK [1][-]{section.6.1}{Pr\344sentation}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Schwierigkeiten}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{Auswertungen}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{Zusammenfassung}{}% 34
-\BOOKMARK [1][-]{section.7.1}{Zusammenfassung}{chapter.7}% 35
-\BOOKMARK [1][-]{section.7.2}{Ausblick auf zuk\374nftige Arbeiten}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.3}{Schlusswort}{chapter.7}% 37
-\BOOKMARK [0][-]{chapter*.15}{Bibliography}{}% 38
-\BOOKMARK [-1][-]{part*.16}{Anhang}{}% 39
-\BOOKMARK [-1][-]{chapter*.18}{Erkl\344rung}{}% 40
-\BOOKMARK [-1][-]{chapter*.19}{Glossar}{}% 41
-\BOOKMARK [-1][-]{chapter*.19}{Index}{}% 42
+\BOOKMARK [1][-]{section.1.2}{Transformational system}{chapter.1}% 10
+\BOOKMARK [2][-]{subsection.1.2.1}{as transition system}{section.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.2.2}{Broca?s area}{section.1.2}% 12
+\BOOKMARK [1][-]{section.1.3}{System specification in ttcn-3}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.3.1}{System composition}{section.1.3}% 14
+\BOOKMARK [2][-]{subsection.1.3.2}{System development}{section.1.3}% 15
+\BOOKMARK [2][-]{subsection.1.3.3}{System verification}{section.1.3}% 16
+\BOOKMARK [2][-]{subsection.1.3.4}{Zweite \334berschrift}{section.1.3}% 17
+\BOOKMARK [0][-]{chapter.2}{Language Syntax}{}% 18
+\BOOKMARK [1][-]{section.2.1}{express structural concepts}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.1.1}{features to describe}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.2}{Zweite \334berschrift}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Well-writen}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{qualities}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{TLA+}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{implementation inheritance}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{The process of writing a correct specification}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{features to describe}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Sorting the elements of the specification}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.3}{The Hierarchical Structure}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.4}{System as a formula}{section.2.3}% 30
+\BOOKMARK [0][-]{chapter.3}{Role of abstractions in domain modeling}{}% 31
+\BOOKMARK [1][-]{section.3.1}{basis for description and analysis}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.1.1}{Zweite \334berschrift}{section.3.1}% 33
+\BOOKMARK [2][-]{subsection.3.1.2}{Zweite \334berschrift}{section.3.1}% 34
+\BOOKMARK [1][-]{section.3.2}{Well-designed abstractions}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.2.1}{qualities}{section.3.2}% 36
+\BOOKMARK [2][-]{subsection.3.2.2}{implementation inheritance}{section.3.2}% 37
+\BOOKMARK [1][-]{section.3.3}{System verification and validation}{chapter.3}% 38
+\BOOKMARK [0][-]{chapter.4}{Marktanalyse}{}% 39
+\BOOKMARK [1][-]{section.4.1}{dfhdhgj}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{thsgfnfgnj}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{gfhfgjdrtu}{chapter.4}% 42
+\BOOKMARK [0][-]{chapter.5}{Entwicklung des Modells}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Erstes Unterkapitel}{chapter.5}% 44
+\BOOKMARK [0][-]{chapter.6}{algebraic design}{}% 45
+\BOOKMARK [0][-]{chapter.6}{xyhas to be defined}{}% 46
+\BOOKMARK [1][-]{section.6.1}{Parser combinators vs. parser generators}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.2}{SBT build system}{chapter.6}% 48
+\BOOKMARK [0][-]{chapter.7}{Ergebnisse}{}% 49
+\BOOKMARK [1][-]{section.7.1}{Pr\344sentation}{chapter.7}% 50
+\BOOKMARK [1][-]{section.7.2}{Schwierigkeiten}{chapter.7}% 51
+\BOOKMARK [1][-]{section.7.3}{Auswertungen}{chapter.7}% 52
+\BOOKMARK [0][-]{chapter.8}{Zusammenfassung}{}% 53
+\BOOKMARK [1][-]{section.8.1}{Zusammenfassung}{chapter.8}% 54
+\BOOKMARK [1][-]{section.8.2}{Ausblick auf zuk\374nftige Arbeiten}{chapter.8}% 55
+\BOOKMARK [1][-]{section.8.3}{Schlusswort}{chapter.8}% 56
+\BOOKMARK [0][-]{chapter*.20}{Bibliography}{}% 57
+\BOOKMARK [-1][-]{part*.21}{Anhang}{}% 58
+\BOOKMARK [-1][-]{chapter*.23}{Erkl\344rung}{}% 59
+\BOOKMARK [-1][-]{chapter*.24}{Glossar}{}% 60
+\BOOKMARK [-1][-]{chapter*.24}{Index}{}% 61

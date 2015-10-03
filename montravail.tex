@@ -8,19 +8,18 @@
 %sowie Änderungen am Layout
 \include{header} 
 
-%\usepackage[babel]{german}
-
 \begin{document}
 
 %=== Einleitung ======================================================
 %Seitennummerierung Abstract bis einschliesslich Inhaltsverzeichnis
 \frontmatter 
-%Seitenzahlzähler wird auf 3 gesetzt, da Titelseiten nicht mitgezählt werden
-\setcounter{page}{3}
+%Seitenzahlzähler wird auf 3 gesetzt, da Titelseiten nicht mitgezählt werden, 0 ist besser
 %Seitennummerierung findet in arabischen Zahlen statt 
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 %Seitennummerierung in römischen Zahlen
-%\pagenumbering{Roman}
+\pagenumbering{Roman}
+\setcounter{page}{0}
+
 
 %Einbinden der Titelseite
 \include{kapitel/titelpage}
@@ -42,7 +41,8 @@
 %Seitennummerierung des Hauptteils
 \mainmatter
 %Nummerierung beginnt beim Hauptteil ab Seite 6 (muss angepasst werden)
-\setcounter{page}{12}
+\pagenumbering{arabic}
+\setcounter{page}{1}
 	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
 
 %Einbinden eines Vorwortes
@@ -70,6 +70,13 @@
 	\setcounter{figure}{1}
  %Einbinden des ersten Kapitels a
 \include{kapitel/kapitel1a} 
+
+	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
+	%in jedem Kapitel die Nummerierung neu beginnt
+	\setcounter{table}{1}
+	\setcounter{figure}{1}
+ %Einbinden des ersten Kapitels a
+\include{kapitel/kapitel1b} 
 
 	%Die Zähler für Tabellen und Abbildungen werden zurückgesetzt, damit
 	%in jedem Kapitel die Nummerierung neu beginnt

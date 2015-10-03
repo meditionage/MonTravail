@@ -1,75 +1,45 @@
-%!TEX root = ../montravail.tex
+%!TEX root = ../Montravail.tex
 
-\chapter{Background}
+\chapter{Role of abstractions
+in domain modeling}
 %\addcontentsline{toc}{chapter}{Grundlagen}
-\lhead[ \leftmark   ]{\textbf{Background}}
+\lhead[ \leftmark   ]{\textbf{Role of abstractions
+in domain modeling}}
 
 %erstes Unterkapitel
-\section{Human brain and languages}
+\section{basis for description and analysis}
 
-\textcolor[rgb]{1,0,0}{Lots of studies have tried to teach limited forms of human language to other great apes. Gorillas and chimpanzees have been able to pick up and communicate through symbols and sign languages and even through a limited form of combinations of the
-human protolanguage\\\\
-possibilities to learn new languages, dolmetchen übersetzen...\\\\
-sens for communoiation}
-
-
-
-%erstes Unterkapitel
-\section{Transformational system}
-
-\textcolor[rgb]{1,0,0}{sequential algorithms\\\\
-input data ?? compute ?? output result...\\\\
-partial correctness + termination + complexity\\\\
-computational model: Turing machines, RAM, term rewriting, . .\\\\\\
-\begin{center}
-\textbf{das musss weg!}
-\end{center}
-Reactive systems (operating systems, controllers, . . . )
-? environment
-?? system
-? safety: something bad never happens
-? liveness: something good eventually happens
-? computational model: transition systems}
-
-
+\textcolor[rgb]{1,0,0}{A DSL is nothing but a layer of abstraction over an underlying implementation model.
+Unless you get it right, your domain model won?t be at the correct level of abstraction, and the linguistic representation of it in the DSL won?t be either.
+well-engineered abstraction, do not contains nonessential details that don?t belong to the core concerns of the abstraction
+design abstractions at the correct level to
+ensure that your model speaks the language of the domain
+abstraction needs to publish only the core essence
+to its clients, which makes it minimal from the outside looking in.}
 
 %nächstes unterkapitel ebene 2
-\subsection{as transition system}
-initial state Please input!!\\
-in detail! abstract (finite-state) model\\
-state transitions, entire transition system obtained as product\\
-all states reachable, no deadlocks\\\\
-tla+handoout.pdf -> the Notes:
-? If (S, L) is a system specification then it should usually be machine closed: otherwise they require
-unbounded look-ahead and are non-implementable\\
-
-
-%unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt! 
-\subsubsection{Dritte Überschrift}
-\textit{understand the foundations of DSLs}
-
+\subsection{Zweite Überschrift}
+Every abstraction has a functionality to deliver to its clients
+minimality of abstractions.
+distillation of the abstraction
 %nächstes unterkapitel ebene 2
-\subsection{Broca?s area}
-systems and properties 
-
+\subsection{Zweite Überschrift}
+Extensibility and composability
+Extensibility is possible only through composability
+Engineering is about designing things in a modular way
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt! 
 \subsubsection{Dritte Überschrift}
-\textit{understand the foundations of DSLs}
-
+\textit{hier kann Kursiv geschrieben werden}
+Extensibility and composability
+Extensibility is possible only through composability
+Engineering is about designing things in a modular way
+Well-behaved abstractions can be composed to form higher-level abstractions
 %zweites Unterkapitel
-\section{System specification in ttcn-3}
-read and write models
-%nächstes unterkapitel ebene 2
-\subsection{System composition}
-concepts of refinement and (de-)composition
-%nächstes unterkapitel ebene 2
-\subsection{System development}
-System development
-%nächstes unterkapitel ebene 2
-\subsection{System verification}
-validate models and prove properties
-certificat ttcn-3
+\section{Well-designed abstractions}
 
+%nächstes unterkapitel ebene 2
+\subsection{qualities}
+abstractions at the correct level to ensure that your model speaks the language of the domain. Only then will your code be as expressive as the language of the person who?s an expert in the domain.
 %Abbildungsbeispiel
 %Abbildungsquelle immer! angeben es sei den selber gemacht!!!!
 Text....(siehe Abb. 1.1)
@@ -84,22 +54,30 @@ Text....(siehe Abb. 1.1)
 \end{figure}
 
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
-\subsubsection{Dritte Überschrift}
+\subsubsection{how to design an abstraction}
 
 %Aufzählung
 \begin{itemize}
-	\item Die Bewegungsform der Achsen
-	\item Anzahl und Anordnung der Achsen
+	\item introduce an extra level of indirection between your domain abstraction and the lan
+	guage of implementation.
+	\item  extensible abstractions 
 	\item Die Formen des Arbeitsraums
 \end{itemize}
     
-... Arm zu strecken. (Vgl.\cite{112}) 
+... extensible abstractions. (Vgl.\cite{112})
+difficult to extend java.util.Map using a true OO approach \\\\
+Mixins let you do exactly what?s needed here \\\\
+Scala offers mixin implementation in the form of traits.\\\\
+in the final implementation, the trait xy is mixed in
+dynamically during runtime object creation.\\\\
 %nächstes unterkapitel ebene 2
-\subsection{Zweite Überschrift}
+\subsection{implementation inheritance}
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
 \subsubsection{Dritte Überschrift}
-Hier Text einfügen\index{einfügen}
-
+dsl in action\index{A.2.2 Subtyping to prevent implementation leak}
+\textcolor[rgb]{1,0,0}{subclasses become unnecessarily coupled to the implementation of your base class!
+how to distill an abstraction out of its nonessential details
+minimize accidental complexity in your abstractions}
 %ß ohne weiterführung des Wortes
 Roboterfu\ss \ befindet
 
@@ -174,7 +152,7 @@ Text...(Siehe Tab. 1.1)
 	\label{Humanoide Roboter}
 \end{figure}
 
-figure source:(\url{http://de.wikipedia.org/wiki/Humanoider_Roboter})\\Sichtung: 17.09.2010\\\\
+Bild-Quellen:(\url{http://de.wikipedia.org/wiki/Humanoider_Roboter})\\Sichtung: 17.09.2010\\\\
 
 In Abb. 1.2 sind...Text\\\\
  
@@ -190,4 +168,18 @@ SI-Einheit der Kraft:
 \begin{equation}M = F * l = F * r * \sin\alpha \end{equation}
  
 SI-Einheit des Drehmomentes: \begin{equation}[M] = Newtonmeter (N * m)\end{equation}
+
+%erstes Unterkapitel
+\section{System verification and validation}
+
+\textcolor[rgb]{1,0,0}{
+\begin{center}
+\textbf{das musss weg!}
+\end{center}
+Validation: are we building the right system ?\\
+Verification: are we building the system right ?}
+
+
+
+
  

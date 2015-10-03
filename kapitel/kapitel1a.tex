@@ -1,45 +1,46 @@
 %!TEX root = ../Montravail.tex
 
-\chapter{Role of abstractions
-in domain modeling}
+\chapter{Language Syntax}
 %\addcontentsline{toc}{chapter}{Grundlagen}
-\lhead[ \leftmark   ]{\textbf{Role of abstractions
-in domain modeling}}
+\lhead[ \leftmark   ]{\textbf{Language Syntax}}
 
 %erstes Unterkapitel
-\section{Erste Überschrift}
+\section{express structural concepts}
 
-\textcolor[rgb]{1,0,0}{A DSL is nothing but a layer of abstraction over an underlying implementation model.
-Unless you get it right, your domain model won?t be at the correct level of abstraction, and the linguistic representation of it in the DSL won?t be either.
-well-engineered abstraction, do not contains nonessential details that don?t belong to the core concerns of the abstraction
-design abstractions at the correct level to
-ensure that your model speaks the language of the domain
-abstraction needs to publish only the core essence
-to its clients, which makes it minimal from the outside looking in.}
+\textcolor[rgb]{1,0,0}{Why do we need a description?
+? Designers: to communicate ideas
+? Implementors: to build a conforming compiler
+? Programmers: how do I write a while loop in language X?}
 
 %nächstes unterkapitel ebene 2
-\subsection{Zweite Überschrift}
-Every abstraction has a functionality to deliver to its clients
-minimality of abstractions.
-distillation of the abstraction
+\subsection{features to describe}
+? syntax: legal sentences
+? semantics
+? static: checked at compile time
+? dynamic: run time behaviour\\\\
+a simple, compact and unambiguous notation:
+? We need a formal description rather than an informal (natural) language
+description.
 %nächstes unterkapitel ebene 2
 \subsection{Zweite Überschrift}
-Extensibility and composability
-Extensibility is possible only through composability
-Engineering is about designing things in a modular way
+the ASCI character version\\\\
+lexems identifiers and strings
+numbers are built-in primitive symbols
+
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt! 
-\subsubsection{Dritte Überschrift}
+\subsubsection{the language evolution}
 \textit{hier kann Kursiv geschrieben werden}
-Extensibility and composability
-Extensibility is possible only through composability
-Engineering is about designing things in a modular way
-Well-behaved abstractions can be composed to form higher-level abstractions
+xy were sentences and equals was a verb
+xy are nouns and equals is an operation
+Just as the noun yx names the ...
+Many people think of all mathematical expressions as sentences, reading 1+1
+as Add 1 and 1. They think of 1 + 1 = 2 as asserting
 %zweites Unterkapitel
-\section{Well-designed abstractions}
-
+\section{Well-writen}
+how to write a module?
 %nächstes unterkapitel ebene 2
 \subsection{qualities}
-abstractions at the correct level to ensure that your model speaks the language of the domain. Only then will your code be as expressive as the language of the person who?s an expert in the domain.
+written in a declarative style that has the goal of making
 %Abbildungsbeispiel
 %Abbildungsquelle immer! angeben es sei den selber gemacht!!!!
 Text....(siehe Abb. 1.1)
@@ -53,9 +54,11 @@ Text....(siehe Abb. 1.1)
 	\label{fig:Aufbau und Komponenten von Robotern}
 \end{figure}
 
+\subsection{TLA+}
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
-\subsubsection{how to design an abstraction}
-
+\subsubsection{Propositional logic is the study of simple operations on Booleans (truth values)}
+all the opssilies tha can occur , as probabilitee
+all the cases that can be defined with the semantic
 %Aufzählung
 \begin{itemize}
 	\item introduce an extra level of indirection between your domain abstraction and the lan
@@ -65,11 +68,14 @@ Text....(siehe Abb. 1.1)
 \end{itemize}
     
 ... extensible abstractions. (Vgl.\cite{112})
-difficult to extend java.util.Map using a true OO approach \\\\
-Mixins let you do exactly what?s needed here \\\\
-Scala offers mixin implementation in the form of traits.\\\\
-in the final implementation, the trait xy is mixed in
-dynamically during runtime object creation.\\\\
+as a manager translates the sentence into a set of separate sentences, checks the ones that are trivially true, and sends the others to one
+or more other ...\\\\
+manager remembers if it has already .. an .. \\\\
+This would be inelegant but feasible\\\\
+ being completely rigorous
+and using the notation of dsl2ttcn3 , you would have to write G[1] and G[2] instead
+of N and E . (If you were restricted to ordinary dsl notation, you would
+have no way to be rigorous.)\\\\
 %nächstes unterkapitel ebene 2
 \subsection{implementation inheritance}
 %unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
@@ -137,6 +143,81 @@ Text...(Siehe Tab. 1.1)
 	%\caption[Mobilitätsgrade]{Gliederung der Mobilitätsgrade}
 	\label{tab:Titel}
 \end{table}
+
+\newpage
+%erstes Unterkapitel
+\section{The process of writing a correct specification }
+
+\textcolor[rgb]{1,0,0}{This is a procedure I use regularly when writing code that is at all tricky and that I want to be correct. But, getting this program correct was not important
+enough to warrant spending that much time. ???}
+
+%nächstes unterkapitel ebene 2
+\subsection{features to describe}
+most obviously correct specifications could not be executed efficiently
+The thing to do in such a case is to write two versions of some definitions:
+one that is simpler and more obviously correct, and another that dsl can evaluate more efficiently.
+%nächstes unterkapitel ebene 2
+\subsection{Sorting the elements of the specification}
+
+
+We want to specify what it means to sort a set of elements. For simplicity, let?s
+assume that each element is a record ? * with a key component, and the elements
+are to be sorted in increasing order of their key value.
+Sorting a set means arranging its elements in a list. A sorting of a set S is
+therefore a list of elements of S that contains each element exactly once and is
+sorted according to the elements? key values. To describe this precisely, we must
+define:
+? What a list of elements of S is.
+? What it means for such a list to contain each element of S exactly once.
+? What it means for the list to be sorted according to elements? key values.
+\\\\
+However,
+if she defined a Turing machine T to be a 7-tuple, it would be impossible to
+remember if its initial state was T [4] or T [5]. Programming languages solve this problem by introducing records.\\\\
+the record\\\\
+*Records in Programming Languages
+A record is called a struct in the C programming language. In more modern
+programming languages, an object is a record for which certain operations are
+defined. In addition to using r .f to mean the value of field f of record r ,
+these languages also use r .O(. . .) to mean the value obtained (and side effects
+produced) by appying the operation O to the record r .
+If you program in an object-oriented language, you may miss some of its fea-
+tures when using TLA + . While those features are useful for writing programs,
+they are not needed for writing specifications, and their inherent mathematical
+complexity would make specifications that used them harder to understand.
+
+%nächstes unterkapitel ebene 2
+\subsection{The Hierarchical Structure}
+
+To write the spec, I had to decide how to represent the voters?
+ballots. The obvious way to represent a single voter?s ballot is by a sequence
+whose i th element is the name of the candidate the voter ranks number i . An
+obvious way to represent all the votes is as a set of such sequences. However,
+that?s not right because two voters can cast identical ballots, and there is no
+concept of a set having ?two copies? of an element. Here are three reasonable
+ways to represent the collection of votes:
+? With a set whose elements are records or tuples with one component being
+the ranking and the other identifying the voter (with a randomly chosen
+identification if the vote is to be anonymous).
+? With a bag (multiset) ? of rankings.
+? With a sequence of rankings, arranged in an arbitrary order.
+%nächstes unterkapitel ebene 2
+\subsection{System as a formula}
+diferent specifications lead to the same Module definition
+one standard interpretation
+
+%unterkapitel Ebene 3 nicht im Inhaltsverzeichnis aufgeführt!
+\subsubsection{Writing Structured specifications}
+dsl in action\index{A.2.2 Subtyping to prevent implementation leak}
+\textcolor[rgb]{1,0,0}{A module consists of module definition describing the module, followed by either:
+Writing Structured optional module control part
+? A non-module control that is a sequence of steps, ending with a qed step, each of which may (but need not) have a control part.
+? A module control, which is either the keyword obvious, the keyword omitted, or a by ....}
+
+after\\\\
+conjunction... formula like tla+
+
+
 
 \newpage
 %Beispiel für zwei Bilder nebeneinander
